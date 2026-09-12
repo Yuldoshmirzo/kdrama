@@ -1,0 +1,20 @@
+export type Drama = { title: string; genre: string; rating: string; description: string; character: string; image: string };
+
+export const dramas: Drama[] = [
+  { title: "Счастье", genre: "Триллер / Романтика", rating: "8.6", description: "В закрытом жилом комплексе привычная жизнь меняется из-за опасной эпидемии. Саэ-бом и И-хён остаются рядом, когда это важнее всего.", character: "Юн Саэ-бом", image: "/images/kdrama-happiness-poster.jpg" },
+  { title: "Деловое предложение", genre: "Романтика / Комедия", rating: "8.8", description: "Случайное свидание вслепую запускает стремительный и очень смешной роман между сотрудницей и её генеральным директором.", character: "Шин Ха-ри", image: "/images/kdrama-proposal-poster.jpg" },
+  { title: "Королева слёз", genre: "Мелодрама / Романтика", rating: "8.7", description: "Супруги на грани развода заново учатся понимать друг друга, когда жизнь делает неожиданный поворот.", character: "Хон Хэ-ин", image: "/images/kdrama-queen-of-tears-poster.jpg" },
+  { title: "Аварийная посадка любви", genre: "Романтика / Драма", rating: "8.7", description: "Южнокорейская наследница случайно оказывается в Северной Корее и встречает офицера, который решает ей помочь.", character: "Юн Се-ри", image: "/images/kdrama-crash-landing-poster.jpg" },
+  { title: "Токкэби", genre: "Фэнтези / Романтика", rating: "8.8", description: "Бессмертный воин ищет невесту, способную снять его древнее проклятие.", character: "Чи Ын-так", image: "/images/kdrama-goblin.jpg" },
+  { title: "Двадцать пять, двадцать один", genre: "Юность / Романтика", rating: "8.6", description: "Две мечты встречаются в непростые девяностые и меняют жизни навсегда.", character: "На Хи-до", image: "/images/kdrama-2521.jpg" },
+  { title: "Наше любимое лето", genre: "Романтика / Повседневность", rating: "8.5", description: "Бывшие одноклассники снова оказываются перед камерой спустя десять лет.", character: "Кук Ён-су", image: "/images/kdrama-our-beloved-summer.jpg" },
+  { title: "Итэвон класс", genre: "Драма / Месть", rating: "8.6", description: "После несправедливости один человек открывает бар и начинает путь к своей цели.", character: "Пак Сэ-рои", image: "/images/kdrama-itaewon-class.jpg" },
+  { title: "Что случилось с секретарём Ким?", genre: "Романтика / Комедия", rating: "8.3", description: "Самовлюблённый вице-президент вдруг понимает, что не готов отпустить свою секретаршу.", character: "Ким Ми-со", image: "/images/kdrama-secretary-kim.jpg" },
+  { title: "Приморская деревня Ча-ча-ча", genre: "Романтика / Хилинг", rating: "8.5", description: "Стоматолог из Сеула начинает новую жизнь в тёплой приморской деревне.", character: "Юн Хе-джин", image: "/images/kdrama-hometown-cha.jpg" },
+  { title: "Мой демон", genre: "Фэнтези / Романтика", rating: "8.1", description: "Демон теряет способности и заключает контракт с холодной наследницей.", character: "До До-хи", image: "/images/kdrama-my-demon.jpg" },
+  { title: "Триумф", genre: "Драма / Триллер", rating: "8.9", description: "Женщина возвращается спустя годы, чтобы тщательно завершить свой план мести.", character: "Мун Дон-ын", image: "/images/kdrama-the-glory.jpg" },
+  { title: "Алхимия душ", genre: "Фэнтези / Романтика", rating: "8.7", description: "В мире магии души меняют тела, а судьбы связываются самым неожиданным образом.", character: "Му Док-и", image: "/images/kdrama-alchemy-of-souls.jpg" },
+  { title: "Мувинг", genre: "Суперсилы / Драма", rating: "8.9", description: "Дети с необычными способностями скрывают свои силы, пока прошлое родителей не настигает их.", character: "Ким Бон-сок", image: "/images/kdrama-moving.jpg" },
+  { title: "Вернуться в 1988", genre: "Семья / Комедия", rating: "9.0", description: "Пять семей и их дети растут вместе в одном сеульском квартале.", character: "Сон Док-сон", image: "/images/kdrama-reply-1988.jpg" },
+  { title: "Мудрая жизнь в больнице", genre: "Драма / Дружба", rating: "8.8", description: "Пять врачей переживают будни, дружбу и любовь в стенах больницы.", character: "Чхэ Сон-хва", image: "/images/kdrama-hospital-playlist.jpg" },
+];
