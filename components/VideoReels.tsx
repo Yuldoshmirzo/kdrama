@@ -1,5 +1,0 @@
-import { videos } from "@/data/videos";
-
-export function VideoReels() {
-  return <section id="видео" className="video-section"><div className="page-width"><div className="section-heading"><p className="eyebrow ink">03 / Трейлеры</p><h2>Официальный взгляд на любимые истории.</h2><p>Только официальные трейлеры из дорам, представленных в каталоге.</p></div><div className="video-grid">{videos.map((video) => <article className="video-card" key={video.title}><iframe src={`https://www.youtube-nocookie.com/embed/${video.videoId}`} title={`${video.title}: ${video.subtitle}`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /><div><p>{video.subtitle}</p><h3>{video.title}</h3><a href={`https://www.youtube.com/watch?v=${video.videoId}`} target="_blank" rel="noreferrer">Открыть на YouTube</a></div></article>)}</div></div></section>;
-}

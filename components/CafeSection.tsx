@@ -1,2 +1,0 @@
-import { cafeItems } from "@/data/cafe";
-export function CafeSection() { return <section id="кафе" className="cafe-section"><div className="page-width"><div className="cafe-heading"><p className="eyebrow ink">05 / Кафе дорам</p><h2>Еда для просмотра до поздней ночи.</h2><p>Классика, без которой не обходится ни один хороший вечер с дорамой.</p></div><div className="cafe-grid">{cafeItems.map(item=><article key={item.name}><img src={item.image} alt=""/><div><h3>{item.name}</h3><p>{item.note}</p></div></article>)}</div></div></section>; }
